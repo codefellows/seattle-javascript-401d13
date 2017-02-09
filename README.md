@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/badge/youtube-401d13-red.svg)](https://www.youtube.com/playlist?list=PLM1HIxGbu_ixvFop_bCxgFXo62AkR5Znu)
 [![](https://img.shields.io/badge/canvas-401d13-blue.svg)](https://canvas.instructure.com/courses/1127476/modules)
-[![](https://img.shields.io/badge/labs-401d13-yellow.svg)](https://github.com/codefellows-seattle-javascript-401d13)
+[![](https://img.shields.io/badge/labs-401d13-yellow.svg)](https://github.com/codefellows-javascript-401d13)
 [![](https://img.shields.io/badge/slack-401d13-orange.svg)](https://codefellows.slack.com/messages/seattle-js-401d13)
 
 # Welcome
