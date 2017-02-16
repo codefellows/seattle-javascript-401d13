@@ -1,8 +1,6 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) 04: EventEmitter and Bitmap Transformer
 =====================================
 
-## Code Review
-
 ## EventEmitter
   *  **Overview**
     * in NodeJS, we can create custom events that can be used on demand
@@ -84,5 +82,4 @@
     * **demo:** `.bmp` reader
       * [bitmap-reader.js](/04-event_emitter_and_bitmap_transformer/demo/bitmap-reader.js)
 
-  * **Project Team Selection**
-    * TODO: Add Project Teams/Members
+
