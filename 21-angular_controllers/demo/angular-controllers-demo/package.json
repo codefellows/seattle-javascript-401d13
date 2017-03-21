@@ -1,0 +1,30 @@
+{
+  "name": "angular-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "cowsay-browser": "^1.1.8",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.2.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
+  }
+}
