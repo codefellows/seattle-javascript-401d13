@@ -9,7 +9,7 @@ ngAdventure.component('gamePad', {
   controllerAs: 'gamePadCtrl'
 });
 
-ngAdventure.controller('GamePadController', ['$log', 'playerService', GamePadController]);
+ngAdventure.controller('GamePadController', ['$log',  'playerService', GamePadController]);
 
 function GamePadController($log, playerService) {
   $log.debug('GamePadController');

@@ -1,0 +1,14 @@
+@import "../../scss/lib/theme/vars";
+
+.player-info {
+  border: solid 2px $brand-primary;
+  padding: $gutter-sm $gutter-std;
+
+  li {
+    margin-bottom: $gutter-sm / 2;
+
+    span {
+      font-size: 2vw;
+    }
+  }
+}

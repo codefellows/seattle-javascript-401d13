@@ -21,7 +21,7 @@ function playerService($q, $log, mapService) {
     {
       turn,
       desc: 'Welcome to ngAdventure',
-      location: player.location,
+      location: 'cabin',
       hp: player.hp
     }
   ];
@@ -36,7 +36,7 @@ function playerService($q, $log, mapService) {
       if (!newLocation) {
         history.unshift({
           turn,
-          desc: 'you have hit a wall!!!',
+          desc: 'You have run into a wall',
           location: player.location,
           hp: player.hp
         });

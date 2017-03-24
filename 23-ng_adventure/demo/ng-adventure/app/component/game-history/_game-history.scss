@@ -1,0 +1,37 @@
+@import "../../scss/lib/theme/vars";
+
+.history {
+  max-height: 300px;
+  overflow: auto;
+  background: $brand-primary;
+  color: $white;
+
+  h2 {
+    padding: $gutter-sm $gutter-std;
+  }
+
+  span {
+    font-size: 2vw;
+    line-height: 1.5em;
+
+    &:first-child {
+      color: $brand-secondary;
+      font-style: italic;
+    }
+
+    &:last-child {
+      margin-left: .5vw;
+      font-family: $font-secondary;
+    }
+  }
+
+  ul {
+    padding: $gutter-std;
+    margin-bottom: $gutter-std;
+    border-top: solid 1px $brand-secondary;
+
+    li {
+      margin-bottom: $gutter-sm;
+    }
+  }
+}

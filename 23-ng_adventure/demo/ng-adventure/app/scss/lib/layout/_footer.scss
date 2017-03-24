@@ -1,0 +1,9 @@
+@import "../theme/vars";
+
+footer {
+  background: $brand-primary;
+  color: $white;
+  padding: $gutter-sm / 2;
+  font-size: 2vw;
+  text-align: right;
+}
