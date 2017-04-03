@@ -1,0 +1,25 @@
+<section class="signup">
+  <form class="signup-form"
+    ng-submit="signupCtrl.signup(signupCtrl.user)"
+    novalidate>
+
+    <input class="input-std"
+      type="text"
+      placeholder="name"
+      ng-minlength="4"
+      ng-model="signupCtrl.user.username" required>
+
+    <input class="input-std"
+      type="email"
+      placeholder="email"
+      ng-model="signupCtrl.user.email">
+
+    <input class="input-std"
+      type="password"
+      placeholder="password"
+      ng-minlength="3"
+      ng-model="signupCtrl.user.password" required>
+
+    <input type="submit" class="btn-std" value="sign up">
+  </form>
+</section>
