@@ -1,0 +1,22 @@
+// :::: BASE & THEME :::: //
+@import "lib/base/reset";
+@import "lib/theme/vars";
+@import "lib/base/base";
+
+// :::: LAYOUT :::: //
+@import "lib/layout/header";
+@import "lib/layout/footer";
+@import "lib/layout/layout";
+
+// :::: VIEW :::: //
+@import "../view/landing/landing";
+
+// :::: COMPONENT :::: //
+@import "../component/landing/login/login";
+@import "../component/landing/signup/signup";
+@import "../component/gallery/create-gallery/create-gallery";
+@import "../component/gallery/edit-gallery/edit-gallery";
+@import "../component/gallery/gallery-item/gallery-item";
+@import "../component/gallery/thumbnail-container/thumbnail-container";
+@import "../component/gallery/thumbnail/thumbnail";
+@import "../component/gallery/upload-pic/upload-pic";
