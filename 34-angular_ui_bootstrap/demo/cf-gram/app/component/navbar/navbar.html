@@ -1,0 +1,21 @@
+<section class="navbar">
+  <h2>cfgram</h2>
+
+  <div uib-dropdown>
+    <button type="button" class="btn btn-primary" uib-dropdown-toggle>
+      Dropdown <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" uib-dropdown-menu>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+    </ul>
+  </div>
+  
+  <nav>
+    <div ng-hide="navbarCtrl.hideButtons">
+      <button class="btn-std" ng-click="navbarCtrl.logout()">logout</button>
+    </div>
+  </nav>
+</section>

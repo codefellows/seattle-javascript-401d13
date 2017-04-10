@@ -1,0 +1,45 @@
+<section class="landing">
+  <div class="join-container"
+    ng-if="landingCtrl.showSignup">
+    <div class="join-inner">
+      <signup></signup>
+      <div>
+        <p>already a member?</p>
+        <a href="/#/join#login"
+          ng-click="landingCtrl.showSignup=false">
+          sign in here.
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="join-container"
+    ng-if="!landingCtrl.showSignup">
+    <div class="join-inner">
+      <login></login>
+      <div>
+        <p>want to signup?</p>
+        <a href="/#/join#signup"
+          ng-click="landingCtrl.showSignup=true">
+          sign up here.
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="test-section">
+  <section class="accordion-test">
+    <uib-accordion>
+      <p uib-accordion-group heading="Stuff">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     </p>
+     <p uib-accordion-group heading="Things">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     </p>
+     <p uib-accordion-group heading="Final Heading">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     </p>
+   </uib-accordion>
+  </section>
+</section>
