@@ -1,0 +1,25 @@
+@import "../../scss/lib/theme/vars";
+
+.navbar {
+  img {
+    width: 5.5vw;
+    float: left;
+    margin-top: 1vw;
+    margin-left: 1%;
+  }
+
+  h2 {
+    float: left;
+    font-size: 3vw;
+    color: $white;
+    margin-top: 2.25vw;
+    margin-left: 1vw;
+  }
+
+  button {
+    float: right;
+    margin-top: 2vw;
+    margin-right: 1%;
+    font-size: 1.5vw;
+  }
+}

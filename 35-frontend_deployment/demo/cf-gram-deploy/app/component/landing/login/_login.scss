@@ -1,0 +1,15 @@
+@import "../../../scss/lib/theme/vars";
+
+.login-form {
+    .input-std {
+      margin-bottom: $gutter-sm;
+    }
+
+    button {
+      float: right;
+      padding-top: 1.5vw;
+      padding-bottom: 1.5vw;
+    }
+
+
+}
